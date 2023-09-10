@@ -2,3 +2,55 @@
 [09-Sep-2023 16:58:22 UTC] Cron reschedule event error for hook: wpforms_email_summaries_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wpforms_email_summaries_weekly","args":[],"interval":604800}
 [09-Sep-2023 17:05:08 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
 [09-Sep-2023 17:56:12 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[10-Sep-2023 07:38:51 UTC] PHP Parse error:  Unmatched '}' in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 25
+[10-Sep-2023 07:38:52 UTC] PHP Parse error:  Unmatched '}' in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 25
+[10-Sep-2023 07:38:59 UTC] PHP Warning:  Undefined variable $args in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:00 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:00 UTC] PHP Warning:  Undefined variable $items in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 24
+[10-Sep-2023 07:39:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:00 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:00 UTC] PHP Warning:  Undefined variable $items in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 24
+[10-Sep-2023 07:39:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:00 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:00 UTC] PHP Warning:  Undefined variable $items in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 24
+[10-Sep-2023 07:39:24 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "", expecting identifier or variable or "{" or "$" in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:24 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "", expecting identifier or variable or "{" or "$" in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:25 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "", expecting identifier or variable or "{" or "$" in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:25 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "", expecting identifier or variable or "{" or "$" in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 17
+[10-Sep-2023 07:39:45 UTC] PHP Warning:  Undefined variable $items in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 21
+[10-Sep-2023 07:39:45 UTC] PHP Warning:  Undefined variable $items in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 21
+[10-Sep-2023 07:39:46 UTC] PHP Warning:  Undefined variable $items in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\themes\twentytwentyone-child\functions.php on line 21
+[10-Sep-2023 07:39:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "admin_link" not found or invalid function name in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php(1934): wp_nav_menu(Object(stdClass))
+#3 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2243): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#4 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#6 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\base\element-base.php(449): Elementor\Widget_Base->print_content()
+#7 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1360): Elementor\Element_Base->print_element()
+#8 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\base\element-base.php(449): Elementor\Element_Base->print_content()
+#9 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1360): Elementor\Element_Base->print_element()
+#10 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\base\element-base.php(449): Elementor\Element_Base->print_content()
+#11 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\core\base\document.php(1711): Elementor\Element_Base->print_element()
+#12 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\core\base\document.php(1106): Elementor\Core\Base\Document->print_elements(Array)
+#13 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#14 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\includes\frontend.php(1247): Elementor\Frontend->get_builder_content('17', false)
+#15 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('17')
+#16 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#17 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\class-wp-hook.php(310): hfe_render_header('')
+#18 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#19 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#20 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#21 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\potot\\...')
+#22 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\class-wp-hook.php(312): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#23 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#24 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#25 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#26 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#27 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\potot\\...')
+#28 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\potot\\...')
+#29 C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\index.php(17): require('C:\\Users\\potot\\...')
+#30 {main}
+  thrown in C:\Users\potot\Local Sites\p6wordpress-branche-1\app\public\wp-includes\class-wp-hook.php on line 310

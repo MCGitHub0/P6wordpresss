@@ -13,12 +13,13 @@ if ( !function_exists( 'chld_thm_cfg_locale_css' ) ):
     }
 endif;
 add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
-         
-if ( !function_exists( 'child_theme_configurator_css' ) ):
-    function child_theme_configurator_css() {
-        wp_enqueue_style( 'chld_thm_cfg_child', trailingslashit( get_stylesheet_directory_uri() ) . 'style.css', array( 'twenty-twenty-one-custom-color-overrides','twenty-twenty-one-style','twenty-twenty-one-style','twenty-twenty-one-print-style' ) );
-    }
-endif;
-add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
+function add_admin_item_to_nav_menu( $items, $args ) {
+    if (is_user_logged_in()) {
+        $items .= '<li id="menu-item-2" class="menu-item"><a href="http://p6wordpress-branche-1.local/wp-admin/">Admin</a></li>';
+    }
+    return $items;
+}
+
+add_filter( 'wp_nav_menu_items', 'add_admin_item_to_nav_menu', 10, 2);
 // END ENQUEUE PARENT ACTION
