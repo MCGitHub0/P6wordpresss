@@ -16,7 +16,7 @@ add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
 
 function add_admin_item_to_nav_menu( $items, $args ) {
     if (is_user_logged_in()) {
-        $items .= '<li id="menu-item-2" class="menu-item"><a href="http://p6wordpress-branche-1.local/wp-admin/">Admin</a></li>';
+        $items .= '<li id="menu-item-2" class="menu-item"><a href="'.admin_url().'">Admin</a></li>';
     }
     return $items;
 }
